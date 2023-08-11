@@ -3,7 +3,7 @@
  * Github: https://www.github.com/lewisevans2007/printc
  * Licence: GNU General Public Licence v3.0
  * By: Lewis Evans
-*/
+ */
 
 #include "src/printc.h"
 
