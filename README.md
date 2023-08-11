@@ -63,24 +63,24 @@ int x = 5;
 printc("Hello, world! %d\n", x);
 ```
 
-- `%u` - unsigned int
-- `%d` - int
-- `%c` - char
-- `%s` - string
-- `%f` - float
-- `%lf` - double
-- `%p` - pointer
-- `%lu` - unsigned long
-- `%lld` - long long
-- `%llu` - unsigned long long
-- `%hhd` - signed char
-- `%hhu` - unsigned char
-- `%hd` - short
-- `%hu` - unsigned short
-- `%ld` - long
-- `%lu` - unsigned long
-- `%lld` - long long
-- `%llu` - unsigned long long
+-   `%u` - unsigned int
+-   `%d` - int
+-   `%c` - char
+-   `%s` - string
+-   `%f` - float
+-   `%lf` - double
+-   `%p` - pointer
+-   `%lu` - unsigned long
+-   `%lld` - long long
+-   `%llu` - unsigned long long
+-   `%hhd` - signed char
+-   `%hhu` - unsigned char
+-   `%hd` - short
+-   `%hu` - unsigned short
+-   `%ld` - long
+-   `%lu` - unsigned long
+-   `%lld` - long long
+-   `%llu` - unsigned long long
 
 ## License
 
