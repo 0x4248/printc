@@ -41,7 +41,7 @@ Shows the level of the print.
 
 ### Colours
 
-Shows colours in the prints at the level.
+Shows colours in the prints at the level. This can help you see the level of the print.
 
 ## Levels
 
