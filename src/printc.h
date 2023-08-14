@@ -1,4 +1,4 @@
-/* Print C
+/* PrintC
  * A new C logging and printing library
  * Github: https://www.github.com/lewisevans2007/printc
  * Licence: GNU General Public Licence v3.0
