@@ -5,7 +5,7 @@
 # By: Lewis Evans
 
 CC=gcc
-CFLAGS=-Isrc
+CFLAGS=-I src
 DEPS=src/printc.h
 OBJ=main.o src/printc.o
 
