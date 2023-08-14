@@ -1,6 +1,6 @@
-# Print C
+# PrintC
 
-A new C logging and printing library
+A new C logging and printing library. Inspired by the linux printk system
 
 ## Usage
 
