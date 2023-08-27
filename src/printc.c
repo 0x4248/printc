@@ -26,11 +26,11 @@ bool show_colours = true;
 bool ran_config = false;
 time_t init_time;
 
-void config(bool timestamp, bool level, bool colours)
+void config(bool show_timestamp, bool show_level, bool show_colours)
 {
-    show_timestamp = timestamp;
-    show_level = level;
-    show_colours = colours;
+    show_timestamp = show_timestamp;
+    show_level = show_level;
+    show_colours = show_colours;
     ran_config = true;
     time_t init_time = time(NULL);
 }
