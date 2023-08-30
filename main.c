@@ -17,7 +17,7 @@ int main()
     config(true, true, true); /* Setup the printc library */
     printc("Hello, world!\n"); /* Print a message */
     int x = 5; /* Declare a variable */
-    printc("Hello, world! %d\n", x); /* Print a message with a variable */
+    printc("This is a number: %d\n", x); /* Print a message with a variable */
     pr_crit("Hello, world!\n"); /* Print a message at the critical log level */
     pr_err("Hello, world!\n"); /* Print a message at the error log level */
     pr_warn("Hello, world!\n"); /* Print a message at the warning log level */

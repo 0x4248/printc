@@ -60,7 +60,7 @@ You can also use the extended c formats.
 
 ```c
 int x = 5;
-printc("Hello, world! %d\n", x);
+printc("This is a number: %d\n", x);
 ```
 
 -   `%u` - unsigned int
