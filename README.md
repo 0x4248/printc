@@ -82,6 +82,6 @@ printc("This is a number: %d\n", x);
 -   `%lld` - long long
 -   `%llu` - unsigned long long
 
-## License
+## Licence
 
 This project is under the GNU General Public License v3.0 - see the [LICENCE](LICENCE) file for details
