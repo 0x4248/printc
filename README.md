@@ -63,6 +63,8 @@ int x = 5;
 printc("This is a number: %d\n", x);
 ```
 
+Here are some of the standard C extended formats:
+
 -   `%u` - unsigned int
 -   `%d` - int
 -   `%c` - char
