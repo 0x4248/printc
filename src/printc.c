@@ -66,7 +66,7 @@ void pr_crit(const char *format, ...)
         {
             printf("\033[31m");
         }
-        printf("CRIT");
+        printf("CRITICAL");
         if (show_colours)
         {
             printf("\033[0m");
@@ -100,7 +100,7 @@ void pr_err(const char *format, ...)
         {
             printf("\033[31m");
         }
-        printf("ERR");
+        printf("ERROR");
         if (show_colours)
         {
             printf("\033[0m");
