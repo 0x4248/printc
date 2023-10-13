@@ -26,6 +26,11 @@ bool show_colours = true;
 bool ran_config = false;
 time_t init_time;
 
+/* Config - configure the printc library
+ * @show_timestamp: whether to show the timestamp
+ * @show_level: whether to show the log level
+ * @show_colours: whether to show colours
+*/
 void config(bool show_timestamp, bool show_level, bool show_colours)
 {
     show_timestamp = show_timestamp;
@@ -35,6 +40,10 @@ void config(bool show_timestamp, bool show_level, bool show_colours)
     time_t init_time = time(NULL);
 }
 
+/* PrintC - print a message
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void printc(const char *format, ...)
 {
     va_list args;
@@ -43,6 +52,10 @@ void printc(const char *format, ...)
     va_end(args);
 }
 
+/* pr_crit - print a message at the critical log level
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void pr_crit(const char *format, ...)
 {
     if (!ran_config)
@@ -77,6 +90,10 @@ void pr_crit(const char *format, ...)
     va_end(args);
 }
 
+/* pr_err - print a message at the error log level
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void pr_err(const char *format, ...)
 {
     if (!ran_config)
@@ -111,6 +128,10 @@ void pr_err(const char *format, ...)
     va_end(args);
 }
 
+/* pr_warn - print a message at the warning log level
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void pr_warn(const char *format, ...)
 {
     if (!ran_config)
@@ -145,6 +166,10 @@ void pr_warn(const char *format, ...)
     va_end(args);
 }
 
+/* pr_info - print a message at the info log level
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void pr_info(const char *format, ...)
 {
     if (!ran_config)
@@ -179,6 +204,10 @@ void pr_info(const char *format, ...)
     va_end(args);
 }
 
+/* pr_debug - print a message at the debug log level
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void pr_debug(const char *format, ...)
 {
     if (!ran_config)
@@ -213,6 +242,10 @@ void pr_debug(const char *format, ...)
     va_end(args);
 }
 
+/* pr_trace - print a message at the trace log level
+ * @format: the format string
+ * @...: the arguments to the format string
+*/
 void pr_trace(const char *format, ...)
 {
     if (!ran_config)
