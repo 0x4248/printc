@@ -13,12 +13,12 @@
 #include <stdio.h>
 #include <time.h>
 
-#define LEVEL_CRITICAL  0
-#define LEVEL_ERROR     1
-#define LEVEL_WARNING   2
-#define LEVEL_INFO      3
-#define LEVEL_DEBUG     4
-#define LEVEL_TRACE     5
+#define LEVEL_CRITICAL 0
+#define LEVEL_ERROR 1
+#define LEVEL_WARNING 2
+#define LEVEL_INFO 3
+#define LEVEL_DEBUG 4
+#define LEVEL_TRACE 5
 
 bool show_timestamp = true;
 bool show_level = true;
@@ -30,7 +30,7 @@ time_t init_time;
  * @show_timestamp: whether to show the timestamp
  * @show_level: whether to show the log level
  * @show_colours: whether to show colours
-*/
+ */
 void config(bool show_timestamp, bool show_level, bool show_colours)
 {
     show_timestamp = show_timestamp;
@@ -43,7 +43,7 @@ void config(bool show_timestamp, bool show_level, bool show_colours)
 /* PrintC - print a message
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void printc(const char *format, ...)
 {
     va_list args;
@@ -55,7 +55,7 @@ void printc(const char *format, ...)
 /* pr_crit - print a message at the critical log level
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void pr_crit(const char *format, ...)
 {
     if (!ran_config)
@@ -93,7 +93,7 @@ void pr_crit(const char *format, ...)
 /* pr_err - print a message at the error log level
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void pr_err(const char *format, ...)
 {
     if (!ran_config)
@@ -131,7 +131,7 @@ void pr_err(const char *format, ...)
 /* pr_warn - print a message at the warning log level
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void pr_warn(const char *format, ...)
 {
     if (!ran_config)
@@ -169,7 +169,7 @@ void pr_warn(const char *format, ...)
 /* pr_info - print a message at the info log level
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void pr_info(const char *format, ...)
 {
     if (!ran_config)
@@ -207,7 +207,7 @@ void pr_info(const char *format, ...)
 /* pr_debug - print a message at the debug log level
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void pr_debug(const char *format, ...)
 {
     if (!ran_config)
@@ -245,7 +245,7 @@ void pr_debug(const char *format, ...)
 /* pr_trace - print a message at the trace log level
  * @format: the format string
  * @...: the arguments to the format string
-*/
+ */
 void pr_trace(const char *format, ...)
 {
     if (!ran_config)
