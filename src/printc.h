@@ -1,8 +1,8 @@
 /* PrintC
  * A new C logging and printing library
- * Github: https://www.github.com/lewisevans2007/printc
+ * Github: https://www.github.com/0x4248/printc
  * Licence: GNU General Public Licence v3.0
- * By: Lewis Evans
+ * By: 0x4248
  */
 
 #ifndef PRINTC_H
